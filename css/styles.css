@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#board {
+    width: 960px;
+    height: 480px;
+    border: 1px solid black;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.ball {
+    background: black;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    position: absolute;
+}
